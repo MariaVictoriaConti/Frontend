@@ -8,6 +8,7 @@
 
  * {background-color: black;} 
 
- a {text-decoration: none;} 
- 
+ a {text-decoration: none;}
+
+ a.destacado {right: 200;}
  img.destacado {display:block;  margin:auto;}
