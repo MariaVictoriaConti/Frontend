@@ -1,5 +1,14 @@
 
  
+head div a {
+    padding: 100px;
+    width: 10px;
+    height: 10px;
+    margin-top: 10%;
+}
+
+
+
 head,header,body,footer,h1,h3,a{background-image: url(https://img.freepik.com/vector-gratis/fondo-bokeh-pastel-horizontal_25819-688.jpg?w=2000)}
  h1 {color:rgb(218, 60, 183); font-family: cursive; border: 0cm; text-align: center; }
 
@@ -8,8 +17,7 @@ head,header,body,footer,h1,h3,a{background-image: url(https://img.freepik.com/ve
  h3 {color:crimson; font-style: oblique; font: size 50%;}
 
 
-
  
 
 
- img.destacado {display:block;  margin:auto;}
+ .destacado {display:block;  margin:auto;}
