@@ -1,14 +1,15 @@
 
  
- h1 {color:coral; font-family: cursive; border: 0cm; text-align: center;}
+head,header,body,footer,h1,h3,a{background-image: url(https://img.freepik.com/vector-gratis/fondo-bokeh-pastel-horizontal_25819-688.jpg?w=2000)}
+ h1 {color:rgb(218, 60, 183); font-family: cursive; border: 0cm; text-align: center; }
 
- ul {color:rgb(29, 160, 149); font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ ul li nav a {color:rgb(218, 60, 183); font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none;}
 
- h3 {color:crimson; font-style: oblique; font: size 50%;;}
+ h3 {color:crimson; font-style: oblique; font: size 50%;}
 
- * {background-color: black;} 
 
- a {text-decoration: none;}
 
- a.destacado {right: 200;}
+ 
+
+
  img.destacado {display:block;  margin:auto;}
