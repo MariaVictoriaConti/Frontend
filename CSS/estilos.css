@@ -1,6 +1,23 @@
 
-.w3-circle { border-width: 2px; border-color: rgb(19, 15, 18); border-style: ridge;}
-.font { font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+* {
+    background-color: rgb(110, 123, 158);}
+    
+header div .col-3 {
+     padding: 40px 10px 0px 75px; }
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.w3-circle {
+     border-width: 2px; border-color: rgb(19, 15, 18); border-style: ridge;}
+
+ .font { 
+    font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 
-body a {list-style-type: none; text-decoration: none;}
+body a {
+    list-style-type: none; text-decoration: none;}
+
+
+    
+    
