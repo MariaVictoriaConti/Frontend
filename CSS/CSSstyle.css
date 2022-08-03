@@ -1,13 +1,20 @@
-*{background-color: aqua;}
+*{background-color: rgb(188, 192, 247);}
 
 
-.container {background-color: rgb(118, 161, 199); padding: 5px; display: block;}
 
-.logo-1 {max-width: 150px; padding: 10px;}
+.logo-1 {max-width: 150px; padding: 0;}
 
 .logo-2 {max-width: 250px; padding: 10px;}
 
-.redes-y-login li {display: inline-block;}
+.imgLinkedin, .imgInsta, .imgLogin{width: 25px;  }
 
-.redes-y-login img{ max-width: 25px; padding: 5px;}
+header a{  float: right; padding: 60px 6px 5px 6px;}
+
+.img-banner {width: 100%; height: 200px;  }
+
+.img-perfil{width: 250px; border-style: solid; border-color: rgb(243, 122, 223); border-radius: 100%; position: absolute; left: 20px; top: 210px; }
+
+h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px; margin: 0px;}
+
+.subtitulo {font-family: 'Courier New', monospace; font-size: 18px; margin: 0px; }
 
