@@ -12,9 +12,15 @@ header a{  float: right; padding: 60px 6px 5px 6px;}
 
 .img-banner {width: 100%; height: 200px;  }
 
-.img-perfil{width: 250px; border-style: solid; border-color: rgb(243, 122, 223); border-radius: 100%; position: absolute; left: 20px; top: 210px; }
+.img-perfil{width: 250px; border-style: solid; border-color: rgb(243, 122, 223); border-radius: 100%; position: absolute; left: 20px; top: 210px;}
 
 h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px; margin: 0px;}
 
 .subtitulo {font-family: 'Courier New', monospace; font-size: 18px; margin: 0px; }
+<!-- FALTA VER PQ NO PUEDO SACAR LOS MARGENES -->
+.container {}
+
+h2.items {font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: medium; text-align: justify;}
 
