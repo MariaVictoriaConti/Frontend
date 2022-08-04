@@ -16,7 +16,7 @@ header a{  float: right; padding: 60px 6px 5px 6px;}
 
 h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px; margin: 0px;}
 
-.subtitulo {font-family: 'Courier New', monospace; font-size: 18px; margin: 0px; }
+.subtitulo {font-family: 'Courier New', monospace; font-size: 18px; padding-left: 33px; }
 
 .container {margin:0px 0px 0px 0px ;}
 
