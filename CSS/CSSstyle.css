@@ -1,4 +1,4 @@
-*{background-color: rgb(188, 192, 247);}
+*{background-color: rgb(188, 192, 247); margin: 0px; padding: 0px;}
 
 
 
@@ -6,11 +6,11 @@
 
 .logo-2 {max-width: 250px; padding: 10px;}
 
-.imgLinkedin, .imgInsta, .imgLogin{width: 25px;  }
+.imgLinkedin, .imgInsta, .imgLogin{width: 25px;}
 
 header a{  float: right; padding: 60px 6px 5px 6px;}
 
-.img-banner {height: 100%; width: 100%;  }
+.img-banner {height: 100%; width: 100%;}
 
 .img-perfil{width: 250px; border-style: solid; border-color: rgb(243, 122, 223); border-radius: 100%; position: relative; left: 20px; top: 3px}
 
@@ -26,9 +26,18 @@ p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 li{display: inline-block; padding: 10px; }
 
-.titulo1 {font-family: Verdana, Geneva, Tahoma, sans-serif; position: relative; top: -100px; left: 20px; background: none; color: rgb(243, 122, 223);}
+.titulo1 {font-family: Verdana, Geneva, Tahoma, sans-serif; position: relative; top: -100px; left: 20px; background: none; color: rgb(255, 255, 255);}
 
-.logo-nja {height: 80px;}
+.logo-atelier {height: 112px; margin-left: 65px; margin-top: 0px; }
 
-.logo-unc {height: 180px; padding: opx; }
+.logo-nja {height: 80px; margin-left: 50px;}
+
+.logo-zantina{height: 100px; margin-left:50px;}
+
+.logo-unc {height: 140px;  }
+
+.logo-ArgProg {height: 125px;}
+
+.logo-educIT{ height: 130px; margin-left:40px}
+
 .exp-1, .edu-1 { font-size: 25px; }
