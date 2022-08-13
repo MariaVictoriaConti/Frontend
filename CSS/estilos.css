@@ -1,0 +1,30 @@
+
+* {
+    background-color: rgb(110, 123, 158);}
+   
+.imgLinkedin, .imgInsta, .imgLogin{
+        width: 35px; padding: 5px 5px 5px 5px; }
+    
+.col-3 {text-align: right; padding-top: 40px}
+
+.font {
+    background:none; font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(237, 204, 238);
+}
+
+.w3-circle {
+    border-width: 2px; border-color: rgb(19, 15, 18); border-style: ridge; position: relative; top: -50px; }
+
+    p {
+    font-family: 'Courier New', Courier, monospace; }
+
+
+
+ 
+
+
+body a {
+    list-style-type: none; text-decoration: none;}
+
+
+    
+    

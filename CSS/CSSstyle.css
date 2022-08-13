@@ -1,0 +1,47 @@
+*{background-color: rgb(188, 192, 247); margin: 0px; padding: 0px;}
+
+
+
+.logo-1 {max-width: 150px; padding: 0;}
+
+.logo-2 {max-width: 250px; padding: 10px;}
+
+.imgLinkedin, .imgInsta, .imgLogin{width: 25px;}
+
+header a{  float: right; padding: 60px 6px 5px 6px;}
+
+.img-banner {height: 100%; width: 100%;}
+
+.bloque-profile {position: relative;top:-85px; background: none;}
+
+.img-perfil{width: 250px; border-style: solid; border-color: rgb(243, 122, 223); border-radius: 100%; position: relative; left: 20px; top: 3px}
+
+h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px; margin: 5px 0px 0px 3px; background: none;}
+
+.subtitulo {font-family: 'Courier New', monospace; font-size: 18px; padding-left: 33px; }
+
+.bloque-acercaDeMi {position: relative; top:-100px; }
+
+h2.items {font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: medium; text-align: justify;}
+
+.ul{ list-style-type: none; align-items: center; padding: 0px 5px 0px 30px; margin-bottom: 0px; margin-left: 40px; }
+
+li{display: inline-block; padding: 10px; }
+
+.titulo1 {font-family: Verdana, Geneva, Tahoma, sans-serif; position: relative; top: -100px; left: 20px; background: none; color: rgb(255, 255, 255);}
+
+.logo-atelier {height: 112px; margin-left: 65px; margin-top: 0px; }
+
+.logo-nja {height: 80px; margin-left: 50px;}
+
+.logo-zantina{height: 100px; margin-left:50px;}
+
+.logo-unc {height: 140px;  }
+
+.logo-ArgProg {height: 125px;}
+
+.logo-educIT{ height: 130px; margin-left:40px}
+
+.exp-1, .edu-1 { font-size: 25px; }
