@@ -6,7 +6,9 @@
 
 .logo-2 {max-width: 250px; padding: 10px;}
 
-.imgLinkedin, .imgInsta, .imgLogin{width: 25px;}
+.imgLinkedin, .imgInsta, .imgLogin{width: 25px; }
+
+button{ border: none; padding:3px;margin: 0px;; }
 
 header a{  float: right; padding: 60px 6px 5px 6px;}
 
