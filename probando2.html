@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,8 @@
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 
     <style>
         :root {
@@ -21,91 +22,129 @@
             --md: 16px;
             --lg: 18px;
         }
-        
+
         body {
             margin: 3px;
             padding: 0px;
             font-family: 'Josefin Sans', sans-serif;
-            background-color: #e8a8b8 ;        
+            background-color: #e8a8b8;
         }
 
-        nav{
-            background-color:;
+        nav {
+            background-color: ;
             display: flex;
             justify-content: space-between;
         }
-        
-        .logo-argpro{
+
+        .logo-argpro {
             width: 120px;
             height: 80px;
         }
 
-        .logo-inti{
+        .logo-inti {
             width: 180px;
             height: 55px;
             padding: 10px;
             margin-left: 0pxpx;
         }
 
-        nav{
+        nav {
             border-bottom: 1px solid var(--very-ligth-pink);
         }
 
-        .nav-rigth{
+        .nav-rigth {
             margin-top: 10px;
             margin-right: 15px;
         }
 
-        ul li{
+        ul li {
             display: inline;
-            list-style-type: none;           
+            list-style-type: none;
         }
 
-        .logo-insta{
+        .logo-insta {
             width: 20px;
             height: 20px;
             padding: 5px;
         }
 
-        .logo-linkedin{
+        .logo-linkedin {
             width: 20px;
             height: 20px;
             padding: 5px;
         }
 
-        .logo-login{
+        .logo-login {
             width: 20px;
             height: 20px;
             padding: 5px;
         }
 
-        .banner-foto{
+        .banner-foto {
             position: relative;
         }
-        .img-banner{
+
+        .img-banner {
             width: 100%;
             height: 200px;
-            object-fit: cover;      
+            object-fit: cover;
         }
 
-        .img-personal{
+        .img-personal {
             width: 160px;
             height: 140px;
             border-radius: 50%;
             border: 1px solid var(--very-ligth-pink);
             position: absolute;
             top: 90px;
-            left: 65px;
+            left: 50px;
             object-fit: cover;
         }
 
-        h1{
+        h1 {
             margin: 35px 4px 0px 4px;
             margin-bottom: 0px;
         }
-        p{
+
+        p.subtitulo {
             margin: 3px 0px 0px 64px;
-            
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 25px 0px 0px 0px;
+        }
+
+        p.descripcion {
+            text-align:center;
+            margin: 5px 20px 0px 20px;
+        }
+
+        @media (max-width: 500px) {
+            .logo-inti {
+                display: none;
+            }
+
+            .img-personal {
+                width: 160px;
+                height: 140px;
+                border-radius: 50%;
+                border: 1px solid var(--very-ligth-pink);
+                position: absolute;
+                top: 90px;
+                left: 20px;
+                object-fit: cover;
+            }
+
+            h2 {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin: 25px 0px 0px -45px;
+            }
+
         }
     </style>
 </head>
@@ -126,19 +165,30 @@
             </div>
         </nav>
     </header>
- 
+
     <div class="banner-foto">
         <div class="banner">
             <img src="imagenes/banner2.png" alt="img-banner" class="img-banner">
         </div>
-            <div class="foto">
-                <img src="imagenes/mifoto.jpg" alt="img-personal" class="img-personal">
-            </div>
+        <div class="foto">
+            <img src="imagenes/mifoto.jpg" alt="img-personal" class="img-personal">
+        </div>
     </div>
     <div class="profile">
-<h1><bold>Maria Victoria Conti</bold></h1>
-<p>FullStack Developer Jr.</p>
+        <h1><span>Maria Victoria Conti</span></h1>
+        <p class="subtitulo">FullStack Developer Jr.</p>
     </div>
+    <section class="sobre-mi">
+        <div>
+            <h2>Sobre Mi</h2>
+        </div>
+        <div>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, voluptates saepe
+                earum aliquam ipsa repellendus, dolorum labore ex est, voluptas minus? In quo optio ea fuga aliquid
+                saepe nulla aut.</p>
+        </div>
+    </section>
 
 </body>
+
 </html>
