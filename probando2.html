@@ -21,6 +21,7 @@
             --sm: 14px;
             --md: 16px;
             --lg: 18px;
+            
         }
 
         body {
@@ -29,11 +30,21 @@
             font-family: 'Josefin Sans', sans-serif;
             background-color: #e8a8b8;
         }
+        .container{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+        header{
+            height: 60px;
+        }
 
         nav {
-            background-color: ;
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--very-ligth-pink);
+            height: 60px;
         }
 
         .logo-argpro {
@@ -41,15 +52,11 @@
             height: 80px;
         }
 
-        .logo-inti {
+        img.logo-inti {
             width: 180px;
             height: 55px;
             padding: 10px;
             margin-left: 0pxpx;
-        }
-
-        nav {
-            border-bottom: 1px solid var(--very-ligth-pink);
         }
 
         .nav-rigth {
@@ -80,62 +87,92 @@
             padding: 5px;
         }
 
-        .banner-foto {
-            position: relative;
+        .banner{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-evenly;
+            align-content: stretch;
         }
+        
 
         .img-banner {
             width: 100%;
-            height: 200px;
-            object-fit: cover;
+            height: 170px;
+            object-fit:cover;
+            position: relative;
+            
         }
 
         .img-personal {
-            width: 160px;
-            height: 140px;
+            width: 120px;
+            height: 105px;
             border-radius: 50%;
             border: 1px solid var(--very-ligth-pink);
             position: absolute;
-            top: 90px;
-            left: 50px;
-            object-fit: cover;
+
+
+            object-fit:cover;
+           
+            margin-top: 4px;
         }
 
         h1 {
-            margin: 35px 4px 0px 4px;
+            margin: 8px 4px 0px 4px;
             margin-bottom: 0px;
         }
 
         p.subtitulo {
-            margin: 3px 0px 0px 64px;
+            margin: 3px 0px 0px 70px;
         }
 
         h2 {
             display: flex;
-            justify-content: center;
             align-content: center;
-            margin: 25px 0px 0px 0px;
+            justify-content: space-around;
+         
         }
 
         p.descripcion {
             text-align:center;
             margin: 5px 20px 0px 20px;
         }
+        .botones1{
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            display: flex;
+    justify-content: space-around;                       
+        }
+        .botones2{
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            display: flex;
+    justify-content: space-evenly;                       
+        }
+        .boton-cv{
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;                     
+        }
+        
+        .botones1 a, .botones2 a, .boton-cv a{
+            font-size: 14px;
+            font-family: 'Josefin Sans', sans-serif;
+            text-decoration: none;
+            color: #000;            
+        }
+        button.btn-cv{
+            padding: 0px;
+            background-color: #92d5e8;
+            border-color: #e8a8b8;
+        }
 
-        @media (max-width: 500px) {
-            .logo-inti {
+        @media (max-width: 640px) {
+            img.logo-inti {
                 display: none;
-            }
-
-            .img-personal {
-                width: 160px;
-                height: 140px;
-                border-radius: 50%;
-                border: 1px solid var(--very-ligth-pink);
-                position: absolute;
-                top: 90px;
-                left: 20px;
-                object-fit: cover;
             }
 
             h2 {
@@ -144,12 +181,13 @@
                 align-content: center;
                 margin: 25px 0px 0px -45px;
             }
-
         }
+
     </style>
 </head>
 
 <body>
+    <div class="container">
     <header>
         <nav>
             <div class="nav-left">
@@ -165,21 +203,17 @@
             </div>
         </nav>
     </header>
-
-    <div class="banner-foto">
-        <div class="banner">
-            <img src="imagenes/banner2.png" alt="img-banner" class="img-banner">
-        </div>
-        <div class="foto">
+            <div class="banner">
+            <img src="imagenes/banner.png" alt="img-banner" class="img-banner"> 
             <img src="imagenes/mifoto.jpg" alt="img-personal" class="img-personal">
         </div>
-    </div>
+    
     <div class="profile">
         <h1><span>Maria Victoria Conti</span></h1>
         <p class="subtitulo">FullStack Developer Jr.</p>
     </div>
     <section class="sobre-mi">
-        <div>
+        <div class="sobre-mi-titulo">
             <h2>Sobre Mi</h2>
         </div>
         <div>
@@ -187,8 +221,19 @@
                 earum aliquam ipsa repellendus, dolorum labore ex est, voluptas minus? In quo optio ea fuga aliquid
                 saepe nulla aut.</p>
         </div>
+        <div class="botones1">
+            <button type="button" class="btn-educ1"><a href="Educacion.html">Educacion</a></button>
+            <button type="button" class="btn-Exp1"><a href="Experiencia.html">Experiencia</a></button>
+        </div>
+        <div class="botones2">
+            <button type="button" class="btn-proy1"><a href="Proyectos.html">Proyectos</a></button>
+            <button type="button" class="btn-hab1"><a href="Habilidades.html">Habilidades</a></button>       
+        </div>
+        <div class="boton-cv">
+        <button type="button" class="btn-cv"><a href="#">Descargar CV</a></button>       
+        </div>
     </section>
-
+ </div>
 </body>
 
 </html>
